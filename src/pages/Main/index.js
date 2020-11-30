@@ -1,11 +1,13 @@
 import React from 'react';
 
+import TitleComponent from '../../components/Title';
+
 import { Container } from './styles';
 
 function Main() {
   return (
     <Container>
-      <h1>Welcome to ReactJS Seed!</h1>
+      <TitleComponent title="Welcome to ReactJS Seed!" />
     </Container>
   );
 }
