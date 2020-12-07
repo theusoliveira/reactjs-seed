@@ -4,7 +4,7 @@ import TitleComponent from '../../components/Title';
 
 import { Container } from './styles';
 
-function Main() {
+function Dashboard() {
   return (
     <Container>
       <TitleComponent title="Welcome to ReactJS Seed!" />
@@ -12,4 +12,4 @@ function Main() {
   );
 }
 
-export default Main;
+export default Dashboard;
